@@ -1,0 +1,44 @@
+section{
+	position: relative;
+	height: auto;
+	padding: 25px;
+	line-height: 1.2em;
+}
+
+section h2{
+	font-size: 1.1em !important;
+	font-weight: bold;
+	padding: 10px 0px;
+}
+
+section>h3.clearfix{
+	margin-top: 10px;
+}
+
+section>div{
+	text-align: left;
+	
+	padding: 0px 0px;
+}
+
+section>div>ul{
+	list-style: disc;
+	margin-left: 15px;
+	line-height: 1.75em;
+}
+
+article{
+	text-align: left;
+	line-height: 1.3em;
+	font-size: 0.95em;
+}
+
+div#links{
+	text-align: left;
+	padding: 25px 25px;
+}
+
+div#links>p{
+	text-align: left;
+	padding: 7.5px;
+}

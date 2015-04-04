@@ -1,0 +1,24 @@
+section {
+  position: relative;
+  /*width: 810px;
+  top: 139px;
+  bottom: 0;*/
+}
+
+/*textarea#editor {
+  width: 100%;
+  background: transparent;
+  height: 100%;
+  border: 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 10px;
+}*/
+
+div.jqte{
+  margin: 5px 0px;
+}
+
+input.btn{
+  margin-top: 0px !important;
+}

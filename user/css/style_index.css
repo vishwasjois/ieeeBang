@@ -1,0 +1,165 @@
+div.post{
+	font-family: Roboto;
+	width: 100%;
+	text-align: left;
+	padding: 10px;
+}
+
+div.post:nth-child(1){
+	margin-top: 20px;
+}
+
+div.container{
+	overflow: hidden;
+}
+
+hr{
+	width: 105%;
+	margin-left: -20px;
+	margin-bottom: 5px;
+}
+
+h2{
+	margin: 0px 10px 10px 0px;
+	font-size: 1.5em;
+}
+
+article{
+	padding: 5px 5px 0px 0px;
+	font-size: 0.9em;
+}
+
+p{
+	text-align: left;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 5px;
+}
+
+div.post p.author{
+	font-size: 0.8em;
+	margin-top: 10px;
+	padding-top: 5px;
+}
+
+div#pageIndex>img{
+	width: 30px;
+	height: 30px;
+}
+
+ul li{
+	list-style: disc outside;
+	margin-left: 15px;
+}
+
+ol li{
+	list-style: decimal outside;
+}
+
+ul.side-menu li{
+	list-style: none;
+}
+
+span.readMore{
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a{
+	margin: 0px;
+	text-decoration: none;
+}
+
+.button{
+	display:inline-block;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	font-weight:400;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+	border:1px solid #333;
+	white-space:nowrap;
+	padding:6px 12px;
+	font-size:14px;
+	line-height:1.42857143;
+	border-radius:4px;
+}
+
+.button:hover,.button:focus{
+	color:#333;
+	text-decoration:none;
+	background-color: #ccc;
+}
+
+.button > a{
+	text-decoration: none;
+	outline: none;
+	color: #333;
+}
+
+div#pageIndex{
+	text-align: center;
+}
+div#pageIndex img{
+	height: 30px;
+	width: 30px;
+}
+
+ul#paginate{
+	padding: 10px;
+}
+
+ul#paginate a{
+	padding: 0px;
+	margin: 0px;
+	height: auto;
+	width: auto;
+	outline: none;
+}
+
+ul#paginate li{
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px;
+  text-align: center;
+  outline: none;
+
+}
+
+ul#paginate li:hover{
+	color: silver;
+}
+
+div#pages{
+	text-align: center;
+}
+
+figure#leftNav{
+	background-image: url("../img/left.png");
+	background-size: 20px;
+	height: 20px;
+	width: 20px;
+	background-position: 0px 3px;
+}
+
+figure#leftNav:hover{
+	background-image: url("../img/left_selected.png");
+}
+
+figure#rightNav{
+	background-image: url("../img/right.png");
+	background-size: 20px;
+	background-position: 0px 3px;
+	height: 20px;
+	width: 20px;
+}
+
+figure#rightNav:hover{
+	background-image: url("../img/right_selected.png");
+}

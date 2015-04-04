@@ -1,0 +1,194 @@
+div.container{
+	padding: 50px;
+	min-height: 500px;
+}
+
+div#wrapper{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -200px;
+}
+
+div#form {
+	position: relative;
+	width: 400px;
+	height: 275px;
+	border: silver 1px solid;
+}
+
+input {
+	width: 262px;
+	height: 38px;
+	background-color: white;
+	color: black;
+	border: silver solid 3px;
+	padding-left: 5px;
+}
+
+input[type="password"]:focus {font:small-caption;font-size:16px}
+
+legend{
+	font-size: 1.5em;
+	padding: 20px 0px;
+}
+
+figure#uicon {
+	float: left;
+	height: 38px;
+	width: 38px;
+	background-image: url(../img/user.png);
+	background-color: silver;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: 10px 10px
+}
+
+figure#picon {
+	float: left;
+	height: 38px;
+	width: 38px;
+	background-image: url(../img/plock.png);
+	background-color: silver;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: 8px 10px
+}
+
+h3 {
+	font-family: "Titillium Web";
+	text-align: center;
+}
+
+button {
+	width: 300px;
+	height: 38px;
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid silver;
+	font-family: "Titillium Web";
+	color: #000;
+	text-align: center;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+button:hover{
+	background-color: silver;
+}
+
+.details {
+	padding-left: 50px;
+	height: 38px;
+}
+
+p.message {
+	padding-top: 15px;
+	text-align: center;
+}
+
+a, a:link, a:visited, a:hover {
+	text-decoration: none;
+	outline: none;
+}
+
+section p{
+	padding: 25px;
+	padding-left: 0px;
+	float: left;
+}
+
+/*div.row:nth-child(1){
+	margin-top: 25px;
+}*/
+
+div#wrapperGrid{
+	text-align: center;
+}
+
+div.box{
+	border: 1px solid silver;
+	padding: 45px;
+	text-align: center;
+	margin: 20px 0px;
+	cursor: pointer;
+}
+
+div.box:hover{
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+div.row a{
+	text-decoration: none;
+	outline: none;
+	margin: 0px;
+	padding: 0px;
+	color: black;
+}
+
+/*div.btn{
+	text-decoration: none;
+	color: #333 !important;
+	background-color: white;
+	border-color: #adadad;
+}
+
+div.btn:hover{
+	background-color: #adadad;
+}*/
+
+.button{
+	display:inline-block;
+	margin-top: 25px;
+	margin-bottom:0;
+	font-weight:400;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+	border:1px solid #333;
+	white-space:nowrap;
+	padding:6px 12px;
+	font-size:14px;
+	line-height:1.42857143;
+	border-radius:4px;
+}
+
+.button:hover,.button:focus{
+	color:#333;
+	text-decoration:none;
+	background-color: #ccc;
+}
+
+a.backLink{
+	color: #333;
+}
+
+div.list{
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	z-index: 1005;
+	border: 1px solid black;
+}
+
+div.list a{
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+
+div.list ul li{
+	font-size: 0.9em;
+	list-style: none;
+	margin: 0px;
+	padding: 12px 25px;
+	border-bottom: 1px solid silver;
+	text-align: center;
+
+}
+
+div.list ul li:hover{
+	background-color: #D8D8D8;
+}
