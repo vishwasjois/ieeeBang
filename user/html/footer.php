@@ -2,13 +2,13 @@
 
 			<div id="footer">
 				<div id="footer_left">
-					<b>Contact:</b>
+					<!--<b>Contact:</b>
 					<p> 
 						ADDRESS<br>
 						ADDRESS ADDRESS ADDRESS ADDRESS <br>
 						ADDRESS ADDRESS<br>
 						Phone: 1234-12345678
-					</p>
+					</p>-->
 				</div>
 				<div id="footer_right">
 					<p> 

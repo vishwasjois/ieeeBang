@@ -47,14 +47,14 @@
           </li>
           <li class="row">
             <ul>
-               <li class="metro white half"><a href="#"><i class="fa fa-calendar"><div class="font1">Events</div></i></a></li>
-                <li class="metro white half"><a href="../html/register.php"><i class="fa fa-plus"><div class="font1">Register</div></i></a></li>
+              <!-- <li class="metro white half"><a href="#"><i class="fa fa-calendar"><div class="font1">Events</div></i></a></li> -->
+              <li class="metro white half"><a href="../html/register.php"><i class="fa fa-plus"><div class="font1">Register</div></i></a></li>
 			 
-            </ul>
+    <!--  </ul>
           </li>
           <li class="row">
             <ul>
-                <li class="metro white half"><a href="#"><i class="fa fa-phone"><div class="font1">Contact</div></i></a></li>
+              <li class="metro white half"><a href="#"><i class="fa fa-phone"><div class="font1">Contact</div></i></a></li> -->
              
               <li class="metro white half"><a id="links"><i class="fa fa-bookmark"><div class="font1">Links</div></i></a></li>
               <div id="linksList" class="menuList"><ul><a href="http://www.ieee.org/"><li>IEEE</li></a><a href="http://www.r10sac.org/"><li>R10 SAC</li></a><a href="http://delhi.r10sac.org/"><li>GINI Delhi</li></a><a href="http://hyderabad.r10sac.org/"><li>GINI Hyderabad</li></a><a href="http://pakistan.r10sac.org/"><li>GINI Pakistan</li></a></ul></div>
