@@ -344,7 +344,8 @@
 	overflow:auto;
 	outline:none;
 	word-wrap:break-word; -ms-word-wrap:break-word;
-	resize:vertical
+	resize:vertical;
+	line-height: 1.2em;
 }
 .jqte_editor div, .jqte_editor p {
 	margin:0 0 7px

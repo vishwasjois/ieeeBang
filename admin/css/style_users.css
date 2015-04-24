@@ -185,7 +185,6 @@ body {
 
 #content {
 	display: block;
-	height: auto;
 	width: 100%;
 	z-index: 90;
 }
@@ -217,6 +216,8 @@ table.table{
 
 
 #footer {
+	position: absolute;
+	bottom: 0px;
 	width: 100%;
 	background-color: #595959;
 	display: block;

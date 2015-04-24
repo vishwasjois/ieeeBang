@@ -180,12 +180,12 @@ body {
 }
 
 div.container{
-  margin-top: -15px;
+  margin-top: 35px;
   border: 1px solid silver;
-  border-top: none;
   background-color: #fff;
   height: 100%;
   z-index: -1;
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -259,7 +259,7 @@ a.menu-icon {
   color:#fff !important;
   overflow: hidden;
   z-index:999;
-  top: -60px;
+  top: -65px;
   right: 25px;
   outline: none;
 }
@@ -378,7 +378,7 @@ ul.side-menu li.metro.white { background-color: #DAD7ED; }
 
 #head {
   float: left;
-  margin-top: 27px;
+  margin-top: 15px;
   margin-left: 10px;
   font-weight: bold;
   color: #fff;
@@ -486,14 +486,14 @@ div.menuList ul li:hover:last-child{
 }
 
 #footer {
-  position: absolute !important;
-  bottom: -290px !important;
+  position: relative;
   width: 100% !important;
+  min-height: auto;
   background-color: #595959 !important;
   display: block !important;
   color: #CFCFCF !important;
   font-size: 14px !important;
-  padding: 20px !important;
+  padding: 25px !important;
   clear: both !important;
 }
 
@@ -506,6 +506,8 @@ div.menuList ul li:hover:last-child{
 }
 
 #footer p{
+  margin: 0px;
+  margin-bottom: 15px;
   line-height: 1.3em !important;
   font-size: 14px !important;
 }

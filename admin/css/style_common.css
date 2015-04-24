@@ -72,13 +72,12 @@ a#logout{
 
 #footer {
 	position: absolute;
-	bottom: -290px;
 	width: 100%;
 	background-color: #595959;
 	display: block;
 	color: #CFCFCF;
 	font-size: 14px;
-	padding: 20px;
+	padding: 10px;
 	clear: both;
 }
 

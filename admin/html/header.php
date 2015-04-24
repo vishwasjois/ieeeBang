@@ -33,12 +33,12 @@
 
 		<nav id="navbar">
 			<a class='btn' href="../html/dashboard.php">Dashboard</a>
-			<a class='btn' href="../html/reports.php">Reports</a>
-			<a class='btn' href="../html/users.php">Accept Users</a>
 			<?php 
 				session_start();
 				
 				if(isset($_SESSION['admin_log'])){
+					echo "<a class='btn' href='../html/reports.php'>Reports</a>";
+					echo "<a class='btn' href='../html/users.php'>Accept Users</a>";
 					echo "<a class='btn' id='logout' href='../php/logout.php'>Logout</a>";
 				}
 

@@ -2,16 +2,15 @@
 				<div id="footer_left">
 					<b>Contact:</b>
 					<p> 
-						ADDRESS<br>
-						ADDRESS ADDRESS ADDRESS ADDRESS <br>
-						ADDRESS ADDRESS<br>
-						Phone: 1234-12345678
+						Vishwas Jois<br>
+						Phone: +91 9620619661
 					</p>
 				</div>
 				<div id="footer_right">
 					<p> 
 						&copy; 2015-2016 <br> 
 						Dhruv Agarwal<br>
+						Bhavarth Chauhan<br>
 						Suyash Shetty
 					</p>
 				</div>
@@ -22,7 +21,7 @@
 		
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$("#content").css({"height":($(window).height() - 100)+"px"});
+				//$("#content").css({"height":($(window).height() - 100)+"px"});
 				
 				$(".boxer").attr("data-boxer-height", function(i,orig) {
 					return $(window).height()-100;
@@ -35,13 +34,13 @@
 				else
 					$(".boxer").boxer();
 				
-				$(window).resize(function() {
-					$("#content").css({"height":$(window).height() - 100});
+				// $(window).resize(function() {
+				// 	$("#content").css({"height":$(window).height() - 100});
 
-					$(".boxer").attr("data-boxer-height", function(i,orig) {
-						return $(window).height()-100;
-					});
-				});
+				// 	$(".boxer").attr("data-boxer-height", function(i,orig) {
+				// 		return $(window).height()-100;
+				// 	});
+				// });
 				
 				$("#navbar").naver();
 				

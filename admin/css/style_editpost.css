@@ -272,9 +272,8 @@ body {
 	margin-bottom: 200px;
 }
 
-/*#footer {
+#footer {
 	position: relative;
-	margin-top: 25px;
 	width: 100%;
 	background-color: #595959;
 	display: block;
@@ -282,7 +281,7 @@ body {
 	font-size: 14px;
 	padding-top: 20px;
 	padding-left: 20px;
-}*/
+}
 
 #footer_left {
 	display: inline-table;

@@ -1,22 +1,19 @@
 </div>
-
-			<div id="footer">
-				<div id="footer_left">
-					<!--<b>Contact:</b>
-					<p> 
-						ADDRESS<br>
-						ADDRESS ADDRESS ADDRESS ADDRESS <br>
-						ADDRESS ADDRESS<br>
-						Phone: 1234-12345678
-					</p>-->
-				</div>
-				<div id="footer_right">
-					<p> 
-						&copy; 2015-2016 <br> 
-						Dhruv Agarwal<br>
-						Suyash Shetty
-					</p>
-				</div>
+		<div id="footer">
+			<div id="footer_left">
+				<b>Contact:</b>
+				<p> 
+					Vishwas Jois<br>
+					Phone: +91 9620619661
+				</p>
+			</div>
+			<div id="footer_right">
+				<p> 
+					&copy; 2015-2016 <br> 
+					Dhruv Agarwal<br>
+					Bhavarth Chauhan<br>
+					Suyash Shetty
+				</p>
 			</div>
 		</div>
 

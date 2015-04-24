@@ -12,10 +12,10 @@ $location = substr($_SERVER["REQUEST_URI"],17);
 				<div id="box"> 
 					<h2> Dashboard </h2>
 					
-					<table id="poststbl" class="table table-hover">
+					<table id="poststbl" class="table table-bordered table-hover">
 						<caption> 
 							Posts:
-							<br><span><a href="../html/createPost.php?url=<?php echo $location ?>"><p>+ New Post</p><figure></figure></a></span>
+							<span><a href="../html/createPost.php?url=<?php echo $location ?>"><p>+ New Post</p><figure></figure></a></span>
 						</caption>
 						<div id="head"><thead>
 							<tr>
@@ -46,3 +46,11 @@ $location = substr($_SERVER["REQUEST_URI"],17);
 <?php
 include 'footer.php';
 ?>
+<script>
+$(document).ready(function(){
+	//var pos = $("table#poststbl").offset().top + $("table#poststbl").height() + "px";
+	// var pos = $("tr::last-child").offset().top;
+	// alert(pos);
+	// $("div#footer").css("top",pos);
+})
+</script>
