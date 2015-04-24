@@ -5,9 +5,9 @@ div.container{
 
 div#wrapper{
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	left: 50%;
-	margin-top: -25px;
+	margin-top: -137.5px;
 	margin-left: -200px;
 }
 
@@ -94,7 +94,13 @@ a, a:link, a:visited, a:hover {
 	outline: none;
 }
 
+section{
+	position: relative;
+	margin-top: -25px;
+}
+
 section p{
+	position: relative;
 	padding: 25px;
 	padding-left: 0px;
 	float: left;

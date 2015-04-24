@@ -7,7 +7,7 @@ Suyash Shetty
 
 -->
 
-
+<div id="content">
 <?php
 include 'header.php';
 include '../../connection.php';
@@ -100,3 +100,4 @@ include '../../connection.php';
 include 'footer.php';
 
 ?>  
+</div>

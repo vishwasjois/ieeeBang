@@ -183,7 +183,7 @@ div.container{
   margin-top: 35px;
   border: 1px solid silver;
   background-color: #fff;
-  height: 100%;
+  min-height: auto;
   z-index: -1;
   margin-bottom: 40px;
 }
@@ -266,6 +266,16 @@ a.menu-icon {
 
 a:hover.menu-icon{text-decoration: none;}
 
+div#sideBarOverlay{
+  position: fixed;
+  top: 0;
+  right: 0px;
+  width: 275px;
+  height: 100%;
+  z-index: 501;
+  display: none;
+}
+
 ul.side-menu {
   position: fixed;
   top: 0;
@@ -273,7 +283,7 @@ ul.side-menu {
   width: 275px;
   height: 100%;
   background-color: #DAD7ED;
-  z-index: 999;
+  z-index: 500;
   color: #fff !important;
   -webkit-transition: right .3s;
   transition: right .3s;
@@ -356,7 +366,7 @@ ul.side-menu li.metro.orange { background-color: #e28f00; }
 ul.side-menu li.metro.teal { background-color: #00e2e2; }
 ul.side-menu li.metro.white { background-color: #DAD7ED; }
 
-#header1 {
+#header {
   background-color: #0152A1;
   height: 100px;
   width: 100%;
@@ -366,7 +376,7 @@ ul.side-menu li.metro.white { background-color: #DAD7ED; }
   box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.4);
 }
 
-#header1>img {
+#header>img {
   float: left;
   height: 100px;
 }
@@ -417,7 +427,7 @@ div#overlay{
   padding: 0;
   margin: 0;
   background-color: rgba(0,0,0,0.7);
-  z-index: 500;
+  z-index: 499;
   border: 0;
   outline: none;
   display: none;
@@ -426,25 +436,26 @@ div#overlay{
 div#resourceList, div.menuList{
   position: absolute;
   top: 225px;
-  right: 150px;
+  right: 275px;
   height: auto;
   width: 250px;
   background-color: #DAD7ED;
   text-align: center;
   display: none;
-  z-index: 50;
   border: 1px solid black;
   border-radius: 4px;
+  margin-right: 5px;
 }
 
+
 div#linksList{
-  margin-top: 75px;
+  margin-top: 55px;
 }
 
 div#memberOptions{
   position: absolute;
   top: 225px;
-  right: 400px;
+  right: 525px;
   width: 300px;
   margin-right: 10px;
   display: none;
@@ -452,7 +463,7 @@ div#memberOptions{
 
 div#execomOptions{
   width: 300px;
-  right: 400px;
+  right: 525px;
   margin-right: 10px;
 }
 

@@ -1,3 +1,4 @@
+
 </div>
 		<div id="footer">
 			<div id="footer_left">
@@ -16,6 +17,7 @@
 				</p>
 			</div>
 		</div>
+		
 
 <!-- Javascript -->
 <script src="../js/jquery-2.1.1.js"></script>
@@ -23,8 +25,6 @@
 <script>
 
 $(document).ready( function(){
-
-	var i = "50";
 
 	$("a#resources").click( function(){
 		$("div#overlay").show();
@@ -51,6 +51,20 @@ $(document).ready( function(){
 	$("div#overlay").click( function(){
 		$("div.menuList").hide();
 		$("div#overlay").hide();
+		$("div#sideBarOverlay").hide();
+	});
+
+	$("li.metro").click( function(){
+		$("div#sideBarOverlay").show();
+	});
+
+	$("div#sideBarOverlay").click( function(){
+		// $("body").addClass("open");
+		// $("ul.side-menu").addClass("open");
+		// $("div#overlay").hide();
+		$("div.menuList").slideUp();
+		$("div.subList").slideUp();
+		$(this).hide();
 	});
 
 	$("div#resourceList ul li").click( function(){

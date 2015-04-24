@@ -4,7 +4,7 @@
 	  var menu_head = $('ul.side-menu h2.title').height();
 	  var item_height = $('ul.side-menu li a').height();
 	  // Untoggle menu on click outside of it
-    $(document).mouseup(function (e) {
+    $("div#overlay").mouseup(function (e) {
       var container = $('ul.side-menu');
       if ((!container.is(e.target) && container.has(e.target).length === 0) && 
          (!($('a.menu-icon').is(e.target)) && $('a.menu-icon').has(e.target).length === 0)) {
@@ -17,15 +17,18 @@
     
     $("a.menu-icon").click(function(e) {
       e.preventDefault();
+
       if ($('ul.side-menu, body').hasClass('open')) {
       	$('ul.side-menu').removeClass('open');
       	$('body').removeClass('open');
+      	$("div#overlay").hide();
 
       	// Reset menu on close
       	$('ul.side-menu li').css("top", "100%");
 	      $('ul.side-menu h2').css("top", "-60px");
       }
       else {
+      	$("div#overlay").show();
 	      $('ul.side-menu').addClass('open');
 	      $('body').addClass('open');
 
